@@ -1,0 +1,175 @@
+
+body {
+    margin:0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(36deg, #000000 31%, #08071a 100%);
+	height: 100vh;
+	color: #ffffff;
+  }
+ 
+.topdiv{
+	
+	border:none;
+	width:100%;
+	height:110px;
+	float: left;
+	align-content: center;
+	 box-shadow: 0 15px 35px rgba(37, 99, 235, 0.1);
+	margin-bottom: 30px;
+	background: linear-gradient(0deg, #000000 0%, #222e49 51%);
+	top: 0;
+}
+
+.burger{
+	cursor: pointer;
+	font-size: 2.5rem;
+	float: left;
+	margin-right: 100px;
+	margin-left: 10px;
+}
+.user-icon{
+	cursor: pointer;
+	font-size: 3.5rem;
+	float: right;
+	text-decoration: none;
+}
+
+.title {
+  font-size: 3.2rem;
+  font-weight: bold;
+  float: left;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+.search {
+
+  margin-top: 20px;
+  float: left;
+	
+	
+	
+}
+
+.sidebar{
+	border:none;
+	width:10%;
+	height:100%;
+	float: left;
+	font-family: Arial, sans-serif;
+	text-decoration: underline;
+	margin-right: 100px;
+}
+	
+.addicon{
+	cursor: pointer;
+	margin-left: 10px;
+	
+}
+
+.logout{
+    width: 100%;
+    padding: 12px;
+    background-color: #ef4444; 
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 450px;
+}
+
+.logout:hover {
+    background-color: #dc2626; 
+    box-shadow: 0 8px 15px rgba(239, 68, 68, 0.3);
+    transform: scale(1.02);
+}
+	
+.vibelist{
+	border:1px solid white;
+	width: 85%;
+	font-size: 2.5rem;
+	height: 50px;
+	font-weight: 600;
+	color: #817db0;
+	font-family: Verdana;
+}
+
+.albums{
+	border:1px solid white;
+	width:250px;
+	height:250px;
+	float: left;
+	font-family: Arial, sans-serif;
+	filter: drop-shadow(-2px 5px 10px #000000);
+	
+	
+	
+	
+	
+}
+
+
+.foot{
+	border:none;
+	position: fixed;
+	width:100%;
+	height:100px;
+	bottom: 0;
+	align-content: center;
+	box-shadow: 0 15px 35px rgba(37, 99, 235, 0.1);
+	margin-top: 20px;
+	background: black;
+	font-family: Arial, sans-serif;
+}
+
+.audio{
+	align-content: center;
+	box-shadow: white;
+	margin-left: 325px;
+	
+	
+}
+
+.img{
+	align-content: center;
+	box-shadow: white;
+	border:1px solid white;
+	margin-right: 10px;
+	margin-left: 10px;
+	width:50px;
+	height:50px;
+	float: left;
+	font-family: Arial, sans-serif;
+	
+}
+.label{
+	font-family: Arial, sans-serif;
+	font-size: 1rem;
+	float: left;
+	width:150px;
+	height:50px;
+	margin-bottom: 10px;
+}
+
+.upcoming{
+	top: 0;
+	border:none;
+	font-size: 1.5rem;
+	height:20px;
+	float: right;
+	font-family: Franklin Gothic Medium;
+	
+	width:10%;
+	
+	
+}
+
+a{
+	color: white;
+	
+}
