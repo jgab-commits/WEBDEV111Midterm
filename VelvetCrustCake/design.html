@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Your Cake - Velvet Crust Cake</title>
+    <link rel="stylesheet" href="designstyle.css">
+</head>
+<body>
+    <div class="headest">
+        <h2>Welcome to Velvet Crust Cake</h2>
+    </div>
+    
+    <div class="header-divider">
+        <a href="home.html">Home</a>
+        <a href="index.html">Login</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="header">
+        <img src="logo.png" alt="Velvet Crust Cake Logo" class="logo">
+    </div>
+    <div class="subheader">
+        <h1>DESIGN YOUR CAKE</h1>
+    </div>
+    <main>
+        <div class="design-container">
+            <div class="cake-preview">
+                <img id="cake-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYzrxLOjZkZxpg1v8PBrS4adabutpqxdqNNg&s" alt="Cake Preview">
+            </div>
+            <div class="options">
+                <div class="option-group">
+                    <h3>Size</h3>
+                    <select id="size">
+                        <option value="small">Small (6 inches)</option>
+                        <option value="medium" selected>Medium (8 inches)</option>
+                        <option value="large">Large (10 inches)</option>
+                    </select>
+                </div>
+                <div class="option-group">
+                    <h3>Flavor</h3>
+                    <select id="flavor">
+                        <option value="chocolate">Chocolate</option>
+                        <option value="vanilla" selected>Vanilla</option>
+                        <option value="strawberry">Strawberry</option>
+                        <option value="lemon">Lemon</option>
+                        <option value="red-velvet">Red Velvet</option>
+                        <option value="carrot">Carrot</option>
+                    </select>
+                </div>
+                <div class="option-group">
+                    <h3>Frosting</h3>
+                    <select id="frosting">
+                        <option value="buttercream">Buttercream</option>
+                        <option value="cream-cheese" selected>Cream Cheese</option>
+                        <option value="fondant">Fondant</option>
+                        <option value="whipped">Whipped Cream</option>
+                    </select>
+                </div>
+                <div class="option-group">
+                    <h3>Toppings</h3>
+                    <div class="toppings">
+                        <label><input type="checkbox" value="sprinkles"> Sprinkles</label>
+                        <label><input type="checkbox" value="pearls"> Pearl Toppings</label>
+                        <label><input type="checkbox" value="nuts"> Nuts</label>
+                        <label><input type="checkbox" value="fruit"> Fresh Fruit</label>
+                    </div>
+                </div>
+                <div class="option-group">
+                    <h3>Message</h3>
+                    <input type="text" id="message" placeholder="Enter your message" maxlength="50">
+                </div>
+                <button id="proceed-order" class="btn">Proceed to Order</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Velvet Crust Cake</h4>
+                <p>Velvet Crust Cake is your go-to destination for delicious and beautifully crafted cakes. We are passionate about creating memorable experiences through our delectable treats.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <p>Email: info@velvetcrustcake.com</p>
+                <p>Phone: (555) 123-4567</p>
+                <p>Address: Our Lady of Fatima University, Saint Benedict Hall Building</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Velvet Crust Cake. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="designscript.js"></script>
+</body>
+</html>
