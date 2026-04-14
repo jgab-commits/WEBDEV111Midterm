@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Course Catalog | ScholarPortal</title>
+  <link rel="stylesheet" href="homestyle.css" />
+  <script src="home.js" defer></script>
+</head>
+<body>
+
+    <div class="header">
+        <div class="topheader">
+            <p>ScholarPortal.educ.ph (555) 123-4567</p>
+            <a href="index.html">Login</a>
+        </div>
+            <div class="logo"><img src="logo.png" alt="ScholarPortal Logo" />SCHOLAR PORTAL</div>
+            <div class="nav">
+                <a href="home.html">Home</a>
+                <a href="courses.html">Courses</a>
+                <a href="schedule.html">Schedule</a>
+                <a href="community.html">Community</a>
+            </div>
+        <div class="welcome-section">
+        <h1>Welcome to ScholarPortal</h1>
+        <p>Your gateway to academic success. Explore courses, manage your schedule, and connect with your school community.</p>
+    </div>
+
+  <main class="content">
+    <section class="module-notebook">
+      <div class="section-header">
+        <h2>Notebook Courses</h2>
+        <p>Review your available course modules and add the ones you want to your semester plan.</p>
+      </div>
+
+      <div class="module-grid">
+        <article class="module-card" data-course="Mathematics 101">
+          <div class="module-meta">
+            <span class="course-code">MATH 101</span>
+            <span class="course-credits">3 Credits</span>
+          </div>
+          <h3>Mathematics 101</h3>
+          <p>Build a strong foundation in algebra, geometry, and problem solving for academic success.</p>
+          <button class="add-module">Add to Semester</button>
+        </article>
+
+        <article class="module-card" data-course="English Literature">
+          <div class="module-meta">
+            <span class="course-code">ENG 110</span>
+            <span class="course-credits">3 Credits</span>
+          </div>
+          <h3>English Literature</h3>
+          <p>Explore classic and contemporary texts, writing strategies, and literary analysis.</p>
+          <button class="add-module">Add to Semester</button>
+        </article>
+
+        <article class="module-card" data-course="Biology Basics">
+          <div class="module-meta">
+            <span class="course-code">BIO 120</span>
+            <span class="course-credits">4 Credits</span>
+          </div>
+          <h3>Biology Basics</h3>
+          <p>Study living systems, ecosystems, and lab methods to prepare for advanced science courses.</p>
+          <button class="add-module">Add to Semester</button>
+        </article>
+
+        <article class="module-card" data-course="Computer Science">
+          <div class="module-meta">
+            <span class="course-code">CS 130</span>
+            <span class="course-credits">3 Credits</span>
+          </div>
+          <h3>Computer Science</h3>
+          <p>Learn programming fundamentals, logic, and digital problem solving for modern coursework.</p>
+          <button class="add-module">Add to Semester</button>
+        </article>
+      </div>
+    </section>
+
+    <aside class="semester-panel">
+      <div class="panel-header">
+        <h2>Semester Plan</h2>
+        <p>Selected courses will appear here. Use this as your semester notebook.</p>
+      </div>
+      <div class="semester-summary">
+        <span class="summary-count">0 courses</span>
+        <span class="summary-credits">0 credits</span>
+      </div>
+      <ul class="semester-list"></ul>
+      <p class="semester-help">Add courses from the notebook to build your semester schedule.</p>
+    </aside>
+  </main>
+
+
+
+  <div class="footer">
+    <p>&copy; 2024 ScholarPortal. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Contact Us</a>
+    </div>
+</body>
+</html>
