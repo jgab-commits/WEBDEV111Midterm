@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiftcart - Login</title>
+    <link rel="stylesheet" href="indexstyle.css">
+</head>
+<body>
+    <div class="split-container">
+        <div class="split-left">
+            <button id="openSplitBtn" class="btn-toggle-split hidden" type="button">Open login</button>
+            <div class="shopping-site">
+                <header class="site-header">
+                    <div class="brand">
+                        <img src="swift.png" alt="Swiftcart" class="brand-logo">
+                        <span>Swiftcart</span>
+                    </div>
+                    <nav class="site-nav">
+                        <a href="#">Home</a>
+                        <a href="#">Shop</a>
+                        <a href="#">Deals</a>
+                        <a href="#">Support</a>
+                    </nav>
+                </header>
+
+                <section class="hero">
+                    <div class="hero-copy">
+                        <p class="hero-eyebrow">Fast delivery for your everyday needs</p>
+                        <h1>Everything you want, delivered in minutes.</h1>
+                        <p>Browse top-rated tech, fashion, and home essentials with curated deals and express checkout.</p>
+                        <div class="hero-actions">
+                            <button class="btn-primary">Shop now</button>
+                            <button class="btn-secondary">Browse categories</button>
+                        </div>
+                    </div>
+                    <img src="swift.png" alt="Shopping hero" class="hero-image">
+                </section>
+
+                <section class="featured-categories">
+                    <div class="section-header">
+                        <h2>Popular categories</h2>
+                    </div>
+                    <div class="category-grid">
+                        <div class="category-card">Electronics</div>
+                        <div class="category-card">Fashion</div>
+                        <div class="category-card">Home & Living</div>
+                        <div class="category-card">Beauty</div>
+                    </div>
+                </section>
+
+                <section class="product-grid-section">
+                    <div class="section-title">
+                        <h2>Top picks for you</h2>
+                        <a href="#">View all</a>
+                    </div>
+                    <div class="product-grid">
+                        <article class="product-card">
+                            <div class="product-image"><img src="https://digitalwalker.ph/cdn/shop/files/WH-CH520OVER-EARWIRELESSHEADPHONES1_COLOR-PINK_1000x1000.png?v=1770194168" alt="Wireless Headphones" class="product-headphones"></div>
+                            <h3>Wireless Headphones</h3>
+                            <p>Noise-cancelling comfort for every commute.</p>
+                            <div class="product-price">$129.00</div>
+                        </article>
+                        <article class="product-card">
+                            <div class="product-image"><img src="https://digitalwalker.ph/cdn/shop/files/CMFUNITSMARTWATCHDARKGREY1_1200x1200.png?v=1703730755" alt="Smart Watch" class="product-headphones"></div>
+                            <h3>Smart Watch</h3>
+                            <p>Track your day with a sleek touchscreen design.</p>
+                            <div class="product-price">$199.00</div>
+                        </article>
+                        <article class="product-card">
+                            <div class="product-image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsfiIi6zP_b09m_RcJZBhBM7mStLZnl8i1fQ&s" alt="Cosy Throw Blanket" class="product-headphones"></div>
+                            <h3>Cosy Throw Blanket</h3>
+                            <p>Soft knit for a warm living room update.</p>
+                            <div class="product-price">$49.00</div>
+                        </article>
+                    </div>
+                </section>
+
+                <footer class="shop-footer">
+                    <p>Shop smart, shop fast — Swiftcart brings the best deals right to your door.</p>
+                </footer>
+            </div>
+        </div>
+
+        <div class="split-right">
+            <div class="form-container">
+                <div class="form-header">
+                    <div class="form-header-top">
+                        <h2>Login</h2>
+                        <button type="button" id="closeSplitBtn" class="btn-close-split">Close</button>
+                    </div>
+                    <p>Sign in to your account</p>
+                </div>
+
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    </div>
+
+                    <div class="form-options">
+                        <label class="remember-me">
+                            <input type="checkbox" name="remember"> Remember me
+                        </label>
+                        <a href="#" class="forgot-password">Forgot password?</a>
+                    </div>
+
+                    <button type="submit" class="btn-login">Login</button>
+                </form>
+
+                <div class="form-footer">
+                    <p>Don't have an account? <a href="#" class="signup-link">Sign up here</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="indexscript.js"></script>
+</body>
+</html>
