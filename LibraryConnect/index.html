@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Connect</title>
+    <link rel="stylesheet" href="indexstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="library.png" alt="Library Connect Logo" class="logo" width="100px" height="100px">
+        <button class="login-btn">Login</button>
+    </header>
+    <main>
+        <section class="hero">
+            <p>Welcome to our vintage-modern library experience.</p>
+        </section>
+        <section class="search-panel">
+            <form class="search-form">
+                <label for="book-search">Search books</label>
+                <input type="search" id="book-search" name="book-search" placeholder="Search by title, author, or keyword">
+                <button type="submit">Search</button>
+            </form>
+            <div class="search-suggestions">
+                <p>Suggested books:</p>
+                <ul>
+                    <li>"The Great Gatsby" by F. Scott Fitzgerald</li>
+                    <li>"Pride and Prejudice" by Jane Austen</li>
+                    <li>"1984" by George Orwell</li>
+                </ul>
+            </div>
+        </section>
+        <div class="content-grid">
+            <section class="bookshelf">
+                <h2>New Arrivals</h2>
+                <p>Discover the latest additions to our collection.</p>
+                <div class="library-card">
+                    <h3>The Great Gatsby</h3>
+                    <p class="book-author">by F. Scott Fitzgerald</p>
+                    <p class="book-status">Status: <strong>Available</strong></p>
+                    <button class="action-btn">Place Hold / Loan</button>
+                </div>
+                <div class="library-card">
+                    <h3>Pride and Prejudice</h3>
+                    <p class="book-author">by Jane Austen</p>
+                    <p class="book-status">Status: <strong>On Loan</strong></p>
+                    <button class="action-btn">Place Hold / Loan</button>
+                </div>
+                <div class="library-card">
+                    <h3>1984</h3>
+                    <p class="book-author">by George Orwell</p>
+                    <p class="book-status">Status: <strong>Available</strong></p>
+                    <button class="action-btn">Place Hold / Loan</button>
+                </div>
+            </section>
+            <aside class="sidebar">
+                <div class="sidebar-card">
+                    <h3>Held Book</h3>
+                    <p><strong>The Great Gatsby</strong></p>
+                    <p>Due Date: <span>April 28, 2026</span></p>
+                    <p>Pickup location: Main Desk</p>
+                </div>
+                <div class="sidebar-card">
+                    <h3>Loaned Book</h3>
+                    <p><strong>Pride and Prejudice</strong></p>
+                    <p>Due Date: <span>May 5, 2026</span></p>
+                    <p>Loan status: In transit</p>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <div class="footer">
+        <p>&copy; 2026 Library Connect. All rights reserved.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,241 @@
+﻿/* Vintage-Modern Color Palette */
+:root {
+    --cream: #fff8dc;
+    --beige: #f5f5dc;
+    --dark-brown: #3e2723;
+    --medium-brown: #8b4513;
+    --muted-green: #6b8e23;
+    --soft-blue: #4682b4;
+    --shadow: rgba(62, 39, 35, 0.2);
+}
+
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: var(--beige);
+    color: var(--dark-brown);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--cream);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--medium-brown);
+}
+
+.login-btn {
+    background-color: var(--muted-green);
+    color: var(--cream);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 999px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px var(--shadow);
+}
+
+.hero h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    margin: 0;
+    color: var(--dark-brown);
+}
+
+.hero {
+    padding: 2.5rem;
+    display: flex;
+    background: url(banner.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.hero p {
+    text-align: center;
+    justify-content: center;
+    color: var(--cream);
+    font-size: 2.5rem;
+    font-weight: 700;
+    max-width: 600px;
+    margin: 0 auto;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.search-panel {
+    padding: 0 2rem 2rem;
+    text-align: center;
+}
+
+.search-form {
+    display: grid;
+    gap: 1rem;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.search-form label {
+    width: 100%;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.search-form input {
+    width: 100%;
+    padding: 1.2rem 1.25rem;
+    border: 2px solid var(--medium-brown);
+    border-radius: 999px;
+    font-size: 1.1rem;
+    outline: none;
+    box-shadow: inset 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.search-form button {
+    width: fit-content;
+    justify-self: center;
+    background-color: var(--muted-green);
+    color: var(--cream);
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 999px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px var(--shadow);
+}
+
+.search-suggestions {
+    margin-top: 1.5rem;
+    background-color: rgba(255,255,240,0.9);
+    border: 1px solid var(--medium-brown);
+    border-radius: 14px;
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    text-align: left;
+    width: min(100%, 720px);
+}
+
+.search-suggestions p {
+    margin: 0 0 0.75rem;
+    font-weight: 700;
+}
+
+.search-suggestions ul {
+    list-style: disc inside;
+    margin: 0;
+    padding: 0;
+}
+
+.search-suggestions li {
+    margin: 0.4rem 0;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1.7fr 0.9fr;
+    gap: 2rem;
+    padding: 0 2rem 2rem;
+}
+
+.bookshelf {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.library-card {
+    justify-items: center;
+    align-items: center;
+    background: url(book.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+    border: 10px solid var(--medium-brown);
+    padding: 1.75rem;
+    border-radius: 14px;
+    box-shadow: 0 4px 8px var(--shadow);
+}
+
+.library-card h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 0.75rem;
+}
+
+.content-grid .bookshelf h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    background-color: beige;
+    border-radius: 4px solid var(--medium-brown);
+}
+
+.book-author,
+.book-status {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.book-status strong {
+    color: var(--muted-green);
+}
+
+.action-btn {
+    background-color: var(--soft-blue);
+    color: var(--cream);
+    border: none;
+    padding: 0.9rem 1.4rem;
+    border-radius: 999px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.action-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px var(--shadow);
+}
+
+.sidebar {
+    display: grid;
+    gap: 1.5rem;
+    position: sticky;
+    top: 2rem;
+}
+
+.sidebar-card {
+    background-color: var(--cream);
+    border: 2px solid var(--medium-brown);
+    padding: 1.75rem;
+    border-radius: 14px;
+    box-shadow: 0 4px 8px var(--shadow);
+}
+
+.sidebar-card p {
+    margin: 0.65rem 0;
+}
+
+.sidebar-card span {
+    font-weight: 700;
+    color: var(--dark-brown);
+}
+
+@media (max-width: 900px) {
+    .content-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .search-form label {
+        text-align: left;
+    }
+}
+
+.footer{
+    background-color: var(--cream);
+    text-align: center;
+    padding: 1rem;
+    border-top: 2px solid var(--medium-brown);
+}
